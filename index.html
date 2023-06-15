@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="crypto.css">
+    <title>CryptoCurr</title>
+</head>
+    <body>        
+        <main class="container">        
+            <div class="wrapper">
+                <div id="search" class="search">
+                    <div class="searchBox">
+                        <input id="searchTxt" class="searchTxt" type="text" value="" placeholder="Search coin..." required>
+                        <button id="searchBtn" class="searchBtn" type="submit"><span class="fa-stack fa-md"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-search fa-stack-1x fa-inverse"></i></span></button>
+                    </div>
+                </div>
+                <div id="loader-container" class="loader-container">
+                    <div class="loader"></div>
+                    <div class="dots"></div>
+                </div>
+                <div id="coins">    
+                    <h4 id="searchTitle" class="title hidden"></h4>
+                    <div id="searchRes" class="hidden">
+                        <h4 class="title"></h4>
+                        <ul id="result" class="result" ></ul>
+                    </div>
+                    <div class="toplist">
+                        <h4 class="title">Top 40: </h4>
+                        <ul id="list"></ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script type="module" src="mainCrypto.js"></script>
+    </body>
+</html>
