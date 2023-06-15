@@ -4,7 +4,7 @@ export async function fetchCoins() {
   const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '3a900876b7mshc5feaf14abc8e86p141c41jsnc286247fea9b',
+      'X-RapidAPI-Key': 'key',
       'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
     }
   };
